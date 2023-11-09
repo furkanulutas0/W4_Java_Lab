@@ -3,6 +3,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello World!");
+        NumberConverterManager numberConverterManager = new NumberConverterManager();
+
+        System.out.println(numberConverterManager.convertToWords(95633));
     }
 }
